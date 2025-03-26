@@ -1,0 +1,50 @@
+.interactive-challenge {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .question {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .text-challenge input {
+    padding: 8px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .text-challenge button,
+  .mcq-challenge button {
+    background-color: #ff92b4;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .mcq-challenge button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .solution {
+    margin-top: 10px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

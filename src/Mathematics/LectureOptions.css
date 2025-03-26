@@ -1,0 +1,58 @@
+/* Container for all lecture options */
+.lecture-options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+    padding: 30px;
+  }
+  
+  /* Each individual option */
+  .lecture-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border: 2px solid;
+    height: 150px;
+  }
+  
+  .lecture-option:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  /* Icon styling */
+  .lecture-option .icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #ff92b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .lecture-option .icon-circle img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  /* Label styling */
+  .lecture-option-label {
+    background-color: #ff92b4;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 0;
+    text-transform: lowercase;
+  }
+  

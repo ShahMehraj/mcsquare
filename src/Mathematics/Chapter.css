@@ -1,0 +1,95 @@
+/* Ensure full-screen layout without overflow */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  /* Page container */
+  .chapter-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: "Courier New", Courier, monospace;
+    color: #ff92b4;;
+    position: relative;
+  }
+  
+  /* Back button */
+  .back-button {
+    background-color: #ff92b4;;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  /* Title */
+  .chapter-title {
+    font-size: 3.5rem;
+    margin-bottom: 50px; 
+    font-family: 'Cascadia Code ExtraLight', monospace;
+  }
+  
+  /* Wrapper to enable smooth scrolling */
+  .chapters-wrapper {
+    height: 50vh; /* ✅ Restrict height for scrolling */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Scrollable container (no scrollbar visible) */
+  .chapters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    overflow-y: auto; /* ✅ Allow scrolling */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  /* Hide scrollbar for WebKit browsers */
+  .chapters-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Row containing two chapter buttons */
+  .chapter-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* Individual chapter box */
+  .chapter-box {
+    background-color: #ff92b4;;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+    min-width: 280px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .chapter-box:hover {
+    transform: scale(1.05);
+  }
+  

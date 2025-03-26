@@ -1,0 +1,35 @@
+{
+    "title": "Lecture Note 2: Advanced Concepts in Number Systems",
+    "content": [
+      {
+        "type": "text",
+        "data": "In this lecture, we delve deeper into number systems, including conversions between different bases and modular arithmetic."
+      },
+      {
+        "type": "latex",
+        "data": "$$a \\mod b$$"
+      },
+      {
+        "type": "text",
+        "data": "Modular arithmetic is fundamental in many cryptographic algorithms."
+      }
+    ],
+    "challenges": [
+      {
+        "id": 1,
+        "question": "$$7 \\mod 3$$",
+        "type": "text",
+        "correctAnswer": "1",
+        "solution": "When 7 is divided by 3, the remainder is 1."
+      },
+      {
+        "id": 2,
+        "question": "Convert the binary number 1010 to decimal.",
+        "type": "mcq",
+        "options": ["8", "10", "12", "14"],
+        "correctAnswer": "10",
+        "solution": "1010 in binary is equal to 10 in decimal."
+      }
+    ]
+  }
+  

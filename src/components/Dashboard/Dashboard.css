@@ -1,0 +1,137 @@
+/* Dashboard.css */
+
+/* Overall Dashboard Styling */
+.dashboard {
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-color:black; /* Black background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Top Header Area */
+.header {
+    position: relative; /* Establishes a positioning context for absolute elements */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the title */
+    padding: 20px 40px;
+     
+    background-color: #000; /* Optional: Darker background for header */
+}
+
+/* Left Section: Logo */
+.header-left {
+    position: absolute; /* Positions the logo independently */
+    left: 40px; /* Aligns with header's left padding */
+    display: flex;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    /* mix-blend-mode: color-burn; */
+    /* border: 2px solid pink; */
+    /* Optional: Adjust margin if needed */
+    /* margin-right: 10px; */
+}
+
+/* Center Section: Title */
+.title {
+    color: #ff92b4; /* Pink shade */
+    font-size: 3.5rem;
+    margin: 0; /* Removes default margin */
+    font-family: 'Cascadia Code ExtraLight', monospace;
+    text-align: center; /* Ensures text is centered */
+}
+
+/* Right Section: User Icon */
+.header-right {
+    position: absolute; /* Positions the user icon independently */
+    right: 120px; /* Aligns with header's right padding */
+    display: flex;
+    align-items: center;
+    
+}
+
+/* User Icon Styling */
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff92b4;
+    object-fit: contain;
+    padding: 5px;
+    border: 2px solid pink;
+}
+
+/* Container for the Four Pink Circular Buttons */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+    /* border: 2px solid pink; */
+    padding: 30px;
+}
+
+/* Individual Button + Label */
+/* .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* Pink Circle Behind the Icons */
+.button img {
+    width: 80px;
+    height: 80px;
+    background-color: #ff92b4;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* Pink Rectangle Label Under Each Icon */
+.button p {
+    background-color: #ff92b4;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+.math {
+    width: 30px;
+    height: 30px;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; /* Increased padding for a larger container */
+    background-color: #1a1a1a; /* Optional */
+    border-radius: 10px; /* Optional */
+    transition: transform 0.3s; /* Optional */
+}
+
+.button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.user-icon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+/* src/pages/Think.css */
+.think-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Header styling */
+  .header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: #000;
+  }
+  
+  /* Title styling */
+  .think-title {
+    color: #ff92b4;
+    font-size: 3.5rem;
+    margin: 0;
+    font-family: 'Cascadia Code ExtraLight', monospace;
+    text-align: center;
+  }
+  
+  /* Back button styling */
+  .back-button {
+    position: absolute;
+    left: 20px;
+    padding: 8px 16px;
+    background-color: #ff92b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Container for the three boxes */
+  .think-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+    padding: 30px;
+  }
+  
+  /* Each box styling */
+  .think-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .think-box:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  /* Icon styling */
+  .icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #ff92b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Button label styling */
+  .think-button {
+    background-color: #ff92b4;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 0;
+    text-transform: lowercase;
+  }
+  

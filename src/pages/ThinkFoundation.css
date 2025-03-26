@@ -1,0 +1,45 @@
+.think-foundation-page {
+    padding: 20px;
+    background-color: #000;
+    min-height: 100vh;
+    color: #fff;
+    border: 2px solid red;
+    width: 100%;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background-color: #ff92b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ff92b4;
+  }
+  
+  .puzzles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .puzzle-box {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .puzzle-box:hover {
+    transform: scale(1.05);
+  }
+  

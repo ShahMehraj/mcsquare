@@ -1,0 +1,82 @@
+.lecture-content-page {
+    padding: 20px;
+    background-color: #000;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background-color: #ff92b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .chapter-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Cascadia Code ExtraLight', monospace;
+    color: #ff92b4;
+    margin-top: 80px;
+  }
+  
+  /* Grid layout: 5 items per row */
+  .content-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .content-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    padding-left: 5px;
+  }
+  
+  /* When content is video, use flex to align instructor pic & label */
+  .video-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  
+  /* Hover effect for all content items */
+  .content-item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  /* Instructor profile picture styling */
+  .instructor-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    flex-shrink: 0;
+    /* margin-left: 5px; */
+
+  }
+  
+  .instructor-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+  }
+  
+  /* Label styling inside content items */
+  .content-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+  

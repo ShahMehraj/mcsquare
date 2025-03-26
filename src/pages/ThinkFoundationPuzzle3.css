@@ -1,0 +1,65 @@
+.puzzle-page {
+    padding: 20px;
+    background-color: #000;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background-color: #ff92b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .puzzle-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #ff92b4;
+  }
+  
+  .puzzle-description {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .puzzle-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .puzzle-input input {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+  }
+  
+  .puzzle-input button {
+    padding: 8px 16px;
+    background-color: #ff92b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .result-message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .attempts-info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
